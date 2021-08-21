@@ -105,6 +105,7 @@ class Calculator:
             if value1 == '':
                 value1=value2
             value2=""
+            user_input.set("+")
             operation="+"
 
         def sub():
@@ -112,6 +113,7 @@ class Calculator:
             if value1 == '':
                 value1=value2
             value2=""
+            user_input.set("-")
             operation="-"
 
         def mul():
@@ -119,6 +121,7 @@ class Calculator:
             if value1 == '':
                 value1=value2
             value2=""
+            user_input.set("x")
             operation="x"
 
         def div():
@@ -126,6 +129,7 @@ class Calculator:
             if value1 == '':
                 value1=value2
             value2=""
+            user_input.set("÷")
             operation="/"
 
         window.mainloop()
